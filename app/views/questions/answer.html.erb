@@ -1,0 +1,18 @@
+<h1>Question : answer !</h1>
+<p>Here is your coaching : </p>
+
+<div class="question shadowing">
+  <p><%=  @question %></p>
+  <p class="who">my question</p>
+</div>
+
+<div class="coaching">
+<div class="empty"></div>
+<div class="answer shadowing">
+  <p><%= @answer %></p>
+  <p class="who">coach's coaching</p>
+</div>
+</div>
+<div class="link">
+<%= link_to "Ask another question", ask_path %>
+</div>
